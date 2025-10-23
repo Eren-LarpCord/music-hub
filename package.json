@@ -1,0 +1,23 @@
+{
+  "name": "musichub-lite",
+  "version": "1.0.0",
+  "description": "MusicHub Lite Node.js server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "async-mutex": "^0.5.0",
+    "express": "^4.21.2",
+    "mime-types": "^2.1.35",
+    "multer": "^1.4.5-lts.1",
+    "node-id3": "^0.2.6",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7",
+    "yt-dlp-wrap": "^2.3.12"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
